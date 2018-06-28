@@ -16,7 +16,10 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".CurrentSongActivity" />
+        <activity android:name=".CurrentSongActivity"
+            android:label="Current Song"
+            android:parentActivityName=".MainActivity"/>
+
     </application>
 
 </manifest>

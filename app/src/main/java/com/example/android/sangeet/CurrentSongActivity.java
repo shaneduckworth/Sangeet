@@ -10,6 +10,7 @@ public class CurrentSongActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.current_song);
+        //getActionBar().setDisplayHomeAsUpEnabled(true);
 
         // Help for the below provided by https://stackoverflow.com/questions/4233873/how-do-i-get-extra-data-from-intent-on-android
         // particularly from "Phi" in the post entitled "Add Up"
